@@ -2,6 +2,21 @@
 
     Instantly share your localhost on internet
 
+## cli
+
+```
+npx share-localhost
+npx share-localhost -p YOUR_PORT
+```
+
+### if install as global npm module
+
+```
+share-localhost -p YOUR_PORT
+local-out -p YOUR_PORT
+lo -p YOUR_PORT
+```
+
 ## install
 
 ```
@@ -10,8 +25,8 @@ yarn add share-localhost
 
 ## provider
 
-- http://localhost.run/
-- http://serveo.net/
+- [http://localhost.run/](http://localhost.run/)
+- [http://serveo.net/](http://serveo.net/)
 
 ## demo
 
