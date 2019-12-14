@@ -1,0 +1,44 @@
+{
+  "name": "share-localhost",
+  "version": "1.0.0",
+  "description": "Instantly share your localhost on internet",
+  "license": "ISC",
+  "author": "",
+  "main": "index.js",
+  "scripts": {
+    "coverage": "npx nyc yarn run test",
+    "lint": "npx eslint **/*.ts",
+    "ncu": "npx yarn-tool ncu -u",
+    "npm:publish": "npm publish",
+    "postpublish_": "git commit -m \"publish new version\" .",
+    "prepublishOnly_": "yarn run ncu && yarn run sort-package-json && yarn run test",
+    "sort-package-json": "npx sort-package-json ./package.json",
+    "test": "echo \"Error: no test specified\"",
+    "tsc:default": "tsc -p tsconfig.json",
+    "tsc:esm": "tsc -p tsconfig.esm.json"
+  },
+  "keywords": [
+    "localhost",
+    "hostname",
+    "localhost.run",
+    "serveo",
+    "port",
+    "tunnel",
+    "web",
+    "internet",
+    "server",
+    "access",
+    "services",
+    "ssh"
+  ],
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "cross-spawn-extra": "^2.0.0",
+    "debug-color2": "^1.1.6",
+    "ts-type": "^1.2.9"
+  },
+  "devDependencies": {
+    "@types/bluebird": "^3.5.29",
+    "@types/node": "^12.12.17"
+  }
+}
