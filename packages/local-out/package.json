@@ -60,5 +60,5 @@
     "@types/node": "^13.7.0",
     "@types/yargs": "^15.0.3"
   },
-  "gitHead": "abeddb641ead12863f47d6140c5691449c9d1dc4"
+  "gitHead": "b2b68a5f65a1a2a37dbc80e80e64ba9bacc7a6c7"
 }
