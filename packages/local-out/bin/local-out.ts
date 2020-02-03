@@ -27,7 +27,7 @@ let argv = yargs
 		.tap(ret => {
 			console.dir(ret)
 		})
-})();
+})(argv);
 
 process.on('exit', () => {
 
