@@ -1,5 +1,3 @@
-/**
- * Created by user on 2019/12/15.
- */
+#!/usr/bin/env node
 
 import('./local-out');

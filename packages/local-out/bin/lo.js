@@ -1,6 +1,4 @@
-/**
- * Created by user on 2019/12/15.
- */
+#!/usr/bin/env node
 var __importStar = (this && this.__importStar) || function (mod) {
     if (mod && mod.__esModule) return mod;
     var result = {};
@@ -9,4 +7,4 @@ var __importStar = (this && this.__importStar) || function (mod) {
     return result;
 };
 Promise.resolve().then(() => __importStar(require('./local-out')));
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibG8uanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJsby50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTs7R0FFRzs7Ozs7Ozs7QUFFSCxrREFBTyxhQUFhLElBQUUiLCJzb3VyY2VzQ29udGVudCI6WyIvKipcbiAqIENyZWF0ZWQgYnkgdXNlciBvbiAyMDE5LzEyLzE1LlxuICovXG5cbmltcG9ydCgnLi9sb2NhbC1vdXQnKTtcbiJdfQ==
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibG8uanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJsby50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7Ozs7OztBQUVBLGtEQUFPLGFBQWEsSUFBRSIsInNvdXJjZXNDb250ZW50IjpbIiMhL3Vzci9iaW4vZW52IG5vZGVcblxuaW1wb3J0KCcuL2xvY2FsLW91dCcpO1xuIl19
