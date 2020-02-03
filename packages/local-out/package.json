@@ -51,14 +51,14 @@
   "dependencies": {
     "bluebird": "^3.7.2",
     "cross-spawn-extra": "^2.0.0",
-    "debug-color2": "^1.1.6",
-    "ts-type": "^1.2.9",
-    "yargs": "^15.0.2"
+    "debug-color2": "^1.1.7",
+    "ts-type": "^1.2.13",
+    "yargs": "^15.1.0"
   },
   "devDependencies": {
     "@types/bluebird": "^3.5.29",
-    "@types/node": "^12.12.17",
-    "@types/yargs": "^13.0.3"
+    "@types/node": "^13.7.0",
+    "@types/yargs": "^15.0.3"
   },
-  "gitHead": "be735ecbb769e939834e88a89db19d55a0e61e55"
+  "gitHead": "abeddb641ead12863f47d6140c5691449c9d1dc4"
 }
